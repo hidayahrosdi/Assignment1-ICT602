@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Scrollable content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="20dp">
+
+            <!-- Header -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About SmartFundCalc"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:background="#66CCFF"
+                android:gravity="center"
+                android:padding="16dp" />
+
+            <!-- Spacer -->
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <!-- Profile Image -->
+            <ImageView
+                android:id="@+id/app_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/app_icon"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_background"
+                android:padding="4dp"
+                android:contentDescription="App Logo" />
+
+            <!-- About Info -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:paddingHorizontal="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Author: Nur Hidayah Binti Rosdi"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Matric No: 2023367787"
+                    android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course: Mobile Technology and Development"
+                    android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center" />
+
+                <!-- Link Text -->
+                <TextView
+                    android:id="@+id/aboutText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit our GitHub repository: https://github.com/hidayahRosdi/SmartFundCalc"
+                    android:autoLink="web"
+                    android:textSize="16sp"
+                    android:layout_marginTop="20dp"
+                    android:padding="8dp"
+                    android:textColor="#0000EE"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- GitHub Button -->
+            <Button
+                android:id="@+id/homeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:text="GitHub"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#66CCFF"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Fixed Footer at Bottom -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2025 SmartFundCalc hidayahRosdi"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:padding="12dp" />
+</LinearLayout>

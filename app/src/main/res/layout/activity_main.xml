@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:text="SmartFundCalc"
+            android:textSize="24sp"
+            android:textColor="#66CCFF"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:src="@drawable/logo_app1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="App Logo"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="#F5F5F5"
+            android:layout_marginBottom="20dp">
+
+            <EditText
+                android:id="@+id/amountInput"
+                android:hint="Invested Amount (RM)"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/rateInput"
+                android:hint="Annual Dividend Rate (%)"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/monthsInput"
+                android:hint="Months Invested (1-12)"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calcButton"
+            android:text="Calculate Dividend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#66CCFF"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/resultView"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="#66CCFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/aboutBtn"
+            android:text="About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#66CCFF"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</ScrollView>
