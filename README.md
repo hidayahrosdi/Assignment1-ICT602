@@ -13,3 +13,5 @@
 - 💾 **Optional Save/Reset** – Easily reset input fields or save your data for future use.
 
 ## 📷 Screenshots
+
+![Results](MobileApp/Screenshot 2025-06-06 084619.png)
