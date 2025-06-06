@@ -1,5 +1,7 @@
 # 📱💰 SmartFundCalc
 
+![SmartFundCalc Logo](logo_app1.png)
+
 **SmartFundCalc** is a simple and user-friendly mobile application designed to help users calculate dividends from their unit trust investments with ease. This project is created as part of an individual assignment to demonstrate knowledge in mobile application development.
 
 ## 📌 Features
