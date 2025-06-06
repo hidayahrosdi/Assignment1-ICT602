@@ -14,6 +14,12 @@
 
 ## 📷 Screenshots
 
-![Results](MobileApp/HomepageApp.png)
+<p align="center">
+  <img src="MobileApp/HomepageApp.png" alt="Homepage Screenshot" width="250" />
+  <br><em>Homepage</em>
+</p>
 
-![Results](MobileApp/AboutApp.png)
+<p align="center">
+  <img src="MobileApp/AboutApp.png" alt="About Page Screenshot" width="250" />
+  <br><em>About Page</em>
+</p>
